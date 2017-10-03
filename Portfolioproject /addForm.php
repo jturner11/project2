@@ -7,7 +7,7 @@
     </select>
    <br>
     New content:<br>
-    <input type="text" name="text_content">
+    <textarea name="text_content"> </textarea>
     <input type="submit" value="Submit">
 </form>
 
