@@ -47,71 +47,10 @@ require "displayData.php";
 			</div>
 			<div class="portfolioImages container">
                 <?php $projects = selectPortfoliopageData();
-                var_dump($projects);?>
-				<div class="overlay-container">
-					<a href="#">
-						<img src="images/bangkok2.jpg">
-						<div class="overlay">
-						    <div class="overlay-container-text">Hello World</div>
-						 </div>
-					</a>
-				</div>
-				<div class="overlay-container">
-					<a href="#">
-						<img src="images/bangkok3.jpg">
-						<div class="overlay">
-						    <div class="overlay-container-text">Hello World</div>
-						 </div>
-					</a>
-				</div>
-				<div class="overlay-container">
-					<a href="#">
-						<img src="images/bangkok3.jpg">
-						<div class="overlay">
-						    <div class="overlay-container-text">Hello World</div>
-						 </div>
-					</a>
-				</div>	
-				<div class="overlay-container">
-					<a href="#">
-						<img src="images/keyboard.jpg">
-						<div class="overlay">
-						    <div class="overlay-container-text">Hello World</div>
-						 </div>
-					</a>
-				</div>
-				<div class="overlay-container">
-					<a href="#">
-						<img src="images/laptop.jpg">
-						<div class="overlay">
-						    <div class="overlay-container-text">Hello World</div>
-						 </div>
-					</a>
-				</div>
-				<div class="overlay-container">
-					<a href="#">
-						<img src="images/insta1.jpg">
-						<div class="overlay">
-						    <div class="overlay-container-text">Hello World</div>
-						 </div>
-					</a>
-				</div>
-				<div class="overlay-container">
-					<a href="#">
-						<img src="images/developer1.jpg">
-						<div class="overlay">
-						    <div class="overlay-container-text">Hello World</div>
-						 </div>
-					</a>
-				</div>
-				<div class="overlay-container">
-					<a href="#">
-						<img src="images/bangkok4.jpg">
-						<div class="overlay">
-						    <div class="overlay-container-text">Hello World</div>
-						 </div>
-					</a>
-				</div>
+                foreach($projects as $project){
+                    echo $project["text_content"];
+                }
+                ?>
 				</div>		
 			</div>
 		</div>

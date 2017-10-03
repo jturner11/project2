@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204b5d3a-872b-4e94-8adf-32eb4515b0af" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmsForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/php edit function" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpformsfunctions/addForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpformsfunctions/cmsEditor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpformsfunctions/deleteData.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpformsfunctions/deleteForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpformsfunctions/editForm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpformsfunctions/editFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpformsfunctions/editFunctionDynamic.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpformsfunctions/phpAddFunction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/phpformsfunctions/selectContentData.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /about.php" afterPath="$PROJECT_DIR$/Portfolioproject /about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /addForm.php" afterPath="$PROJECT_DIR$/Portfolioproject /addForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /deleteForm.php" afterPath="$PROJECT_DIR$/Portfolioproject /deleteForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /editForm.php" afterPath="$PROJECT_DIR$/Portfolioproject /editForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /index.php" afterPath="$PROJECT_DIR$/Portfolioproject /index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /phpformsfunctions/addPortfolio.php" afterPath="$PROJECT_DIR$/Portfolioproject /phpformsfunctions/addPortfolio.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /portfolio.php" afterPath="$PROJECT_DIR$/Portfolioproject /portfolio.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +57,8 @@
       <file leaf-file-name="portfolio.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Portfolioproject /portfolio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="573">
+              <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -117,17 +97,17 @@
       <file leaf-file-name="addPortfolio.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolioproject /phpformsfunctions/addPortfolio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="364">
+              <caret line="13" column="108" lean-forward="false" selection-start-line="13" selection-start-column="108" selection-end-line="13" selection-end-column="108" />
               <folding>
-                <marker date="1507041626000" expanded="true" signature="179:194" ph="..." />
-                <marker date="1507041626000" expanded="true" signature="179:195" ph="..." />
-                <marker date="1507041626000" expanded="true" signature="179:396" ph="..." />
-                <marker date="1507041626000" expanded="true" signature="217:385" ph="..." />
-                <marker date="1507041626000" expanded="true" signature="286:375" ph="..." />
-                <marker date="1507041626000" expanded="true" signature="431:494" ph="INSERT INTO `Project2`... " />
-                <marker date="1507041626000" expanded="true" signature="431:504" ph="INSERT INTO `Project2`... " />
-                <marker date="1507041626000" expanded="true" signature="431:513" ph="INSERT INTO `Project2`... " />
+                <marker date="1507042804000" expanded="true" signature="179:194" ph="..." />
+                <marker date="1507042804000" expanded="true" signature="179:195" ph="..." />
+                <marker date="1507042804000" expanded="true" signature="179:396" ph="..." />
+                <marker date="1507042804000" expanded="true" signature="217:385" ph="..." />
+                <marker date="1507042804000" expanded="true" signature="286:375" ph="..." />
+                <marker date="1507042804000" expanded="true" signature="431:494" ph="INSERT INTO `Project2`... " />
+                <marker date="1507042804000" expanded="true" signature="431:504" ph="INSERT INTO `Project2`... " />
+                <marker date="1507042804000" expanded="true" signature="431:517" ph="INSERT INTO `Project2`... " />
               </folding>
             </state>
           </provider>
@@ -190,8 +170,8 @@
         <option value="$PROJECT_DIR$/Portfolioproject /about.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /cmsPortfolioForm.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /addPortfolioForm.php" />
-        <option value="$PROJECT_DIR$/Portfolioproject /phpformsfunctions/addPortfolio.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /displayData.php" />
+        <option value="$PROJECT_DIR$/Portfolioproject /phpformsfunctions/addPortfolio.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /portfolio.php" />
       </list>
     </option>
@@ -288,12 +268,12 @@
       <option name="presentableId" value="Default" />
       <updated>1506939619508</updated>
       <workItem from="1506939620759" duration="4302000" />
-      <workItem from="1506962673347" duration="17186000" />
+      <workItem from="1506962673347" duration="18008000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21488000" />
+    <option name="totallyTimeSpent" value="22310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1875" y="-158" width="1797" height="1006" extended-state="0" />
@@ -587,23 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolioproject /phpformsfunctions/addPortfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1507041626000" expanded="true" signature="179:194" ph="..." />
-            <marker date="1507041626000" expanded="true" signature="179:195" ph="..." />
-            <marker date="1507041626000" expanded="true" signature="179:396" ph="..." />
-            <marker date="1507041626000" expanded="true" signature="217:385" ph="..." />
-            <marker date="1507041626000" expanded="true" signature="286:375" ph="..." />
-            <marker date="1507041626000" expanded="true" signature="431:494" ph="INSERT INTO `Project2`... " />
-            <marker date="1507041626000" expanded="true" signature="431:504" ph="INSERT INTO `Project2`... " />
-            <marker date="1507041626000" expanded="true" signature="431:513" ph="INSERT INTO `Project2`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Portfolioproject /phpformsfunctions/phpAddFunction.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -630,10 +593,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolioproject /phpformsfunctions/addPortfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="13" column="108" lean-forward="false" selection-start-line="13" selection-start-column="108" selection-end-line="13" selection-end-column="108" />
+          <folding>
+            <marker date="1507042804000" expanded="true" signature="179:194" ph="..." />
+            <marker date="1507042804000" expanded="true" signature="179:195" ph="..." />
+            <marker date="1507042804000" expanded="true" signature="179:396" ph="..." />
+            <marker date="1507042804000" expanded="true" signature="217:385" ph="..." />
+            <marker date="1507042804000" expanded="true" signature="286:375" ph="..." />
+            <marker date="1507042804000" expanded="true" signature="431:494" ph="INSERT INTO `Project2`... " />
+            <marker date="1507042804000" expanded="true" signature="431:504" ph="INSERT INTO `Project2`... " />
+            <marker date="1507042804000" expanded="true" signature="431:517" ph="INSERT INTO `Project2`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Portfolioproject /portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="573">
+          <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
           <folding />
         </state>
       </provider>

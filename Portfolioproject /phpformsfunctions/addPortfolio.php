@@ -11,7 +11,7 @@ $layout = '<div class="overlay-container">
 						 </div>
 					</a>
 				</div>';
-        $query = $db->prepare("INSERT INTO `Project2` (`content_name`,`text_content`) VALUES ('portfolio', :text);");
+        $query = $db->prepare("INSERT INTO `Project2` (`content_name`,`text_content`) VALUES ('portfoliopage', :text);");
         $query->bindParam(':text', $layout);
         $query->execute();
 ?>
