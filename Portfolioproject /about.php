@@ -45,10 +45,7 @@
 				   from any device (Mobile, Tablet or Desktop).
 			   </p>
                 <div class="cmsUpdates">
-			   <!-- 	THIS IS WHERE UPDATES ARE POSTED -->
-				   <?php
-
-				   ?>
+			        <a href="cmsForm.php">EDIT</a>
 			   </div>
 			</div>		
 		</div>	

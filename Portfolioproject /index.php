@@ -53,12 +53,9 @@
 					<img src="images/css3.png">
 					<img src="images/php.png">
 				</div>
-                <div class="cmsUpdates">
-                <!-- 	THIS IS WHERE UPDATES ARE POSTED -->
-                    <?php
-
-                    ?>
-                 </div>
+                    <div class="cmsUpdates">
+                        <a href="cmsForm.php">EDIT</a>
+                    </div>
 		    </div>
 	</div>	
 		<footer>

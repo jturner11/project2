@@ -251,6 +251,10 @@ footer{
 	display: inline;
 	
 }
+
+.cmsBackground {
+background-color: #20AB85;
+}
 /*media queries */
 
 @media screen and (max-width: 1300px) {

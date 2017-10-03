@@ -118,6 +118,10 @@
 				</div>		
 			</div>
 		</div>
+<!--   THIS IS WHERE THE CMS IS-->
+                <div class="cmsUpdates">
+                     <a href="cmsForm.php">EDIT</a>
+                </div>
 			<footer>	
 				<div class="footer">
 					<a href="https://www.facebook.com/Josh-Turner-JT-771689736307675/"><img src="images/if_facebook_2308066.png"></a>
