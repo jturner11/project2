@@ -19,16 +19,16 @@
 				</div>
 				<div class="navbar">
 					<div>
-						<a href="index.html">HOME</a>
+						<a href="index.php">HOME</a>
 					</div>
 					<div>
-						<a href="about.html">ABOUT</a>
+						<a href="about.php">ABOUT</a>
 					</div>
 					<div>
-						<a href="portfolio.html">PORTFOLIO</a>
+						<a href="portfolio.php">PORTFOLIO</a>
 					</div>
 					<div>
-						<a href="contact.html">CONTACT</a>
+						<a href="contact.php">CONTACT</a>
 					</div>
 				</div>	
 			</div>

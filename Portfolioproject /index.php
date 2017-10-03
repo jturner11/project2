@@ -19,16 +19,16 @@
 							</div>
 							<div class="navbar">	
 								<div>
-									<a href="index.html">HOME</a>
+									<a href="index.php">HOME</a>
 								</div>
 								<div>
-									<a href="about.html">ABOUT</a>
+									<a href="about.php">ABOUT</a>
 								</div>
 								<div>
-									<a href="portfolio.html">PORTFOLIO</a>
+									<a href="portfolio.php">PORTFOLIO</a>
 								</div>
 								<div>
-									<a href="contact.html">CONTACT</a>
+									<a href="contact.php">CONTACT</a>
 								</div>
 							</div>	
 				</div>
@@ -45,7 +45,7 @@
 				 CLICK THE BUTTON BELOW TO BROWSE MY PORTFOLIO !!
 				</STRONG>
 			</p>	
-			<button class="readMoreButton"><a href="about.html">READ MORE</a></button>
+			<button class="readMoreButton"><a href="about.php">READ MORE</a></button>
 				<div class="homeLogos container">
 					<img src="images/HTML5.png">
 					<img src="images/javascript.png">
