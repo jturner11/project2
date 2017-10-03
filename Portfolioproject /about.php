@@ -44,7 +44,7 @@ require "displayData.php";
 			<div class="aboutMeText">
                 <p><?php echo selectAboutpageData(); ?> </p>
                 <div class="cmsUpdates">
-			        <a href="cmsForm.php">EDIT</a>
+			        <a href="editAboutpage.php">EDIT</a>
 			   </div>
 			</div>
 		</div>	

@@ -41,7 +41,7 @@ require "displayData.php";
                 <?php echo selectHomepageData(); ?>
 				</STRONG>
 			</p>
-            <a href="cmsForm.php">EDIT</a>
+            <a href="editHomepage.php">EDIT</a>
             <br>
 			<button class="readMoreButton"><a href="about.php">READ MORE</a></button>
 				<div class="homeLogos container">
