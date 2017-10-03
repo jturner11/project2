@@ -1,6 +1,7 @@
 <?php
 include("phpformsfunctions/editFunctionDynamic.php");
 ?>
+<h1>EDIT YOUR DATA</h1>
 <form action="phpformsfunctions/editFunction.php" method="POST">
     <select>
         <?php

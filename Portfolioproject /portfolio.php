@@ -1,3 +1,6 @@
+<?php
+require "displayData.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,14 +46,8 @@
 				</p>	
 			</div>
 			<div class="portfolioImages container">
-				<div class="overlay-container">
-					<a href="#">
-						<img src="images/bangkok.jpg">
-						<div class="overlay">
-						    <div class="overlay-container-text">Hello World</div>
-						 </div>
-					</a>	
-				</div>
+                <?php $projects = selectPortfoliopageData();
+                var_dump($projects);?>
 				<div class="overlay-container">
 					<a href="#">
 						<img src="images/bangkok2.jpg">
@@ -120,7 +117,7 @@
 		</div>
 <!--   THIS IS WHERE THE CMS IS-->
                 <div class="cmsUpdates">
-                     <a href="cmsForm.php">EDIT</a>
+                     <a href="cmsPortfolioForm.php">EDIT</a>
                 </div>
 			<footer>	
 				<div class="footer">

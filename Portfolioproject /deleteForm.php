@@ -2,6 +2,7 @@
 include("selectContentData.php");
 $var = selectContentData();
 ?>
+<h1>DELETE YOUR DATA</h1>
 <form action="phpformsfunctions/deleteData.php" method="POST">
     <select name="content_name">
         <?php

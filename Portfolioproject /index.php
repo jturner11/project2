@@ -1,3 +1,6 @@
+<?php
+require "displayData.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,6 +58,7 @@
 				</div>
                     <div class="cmsUpdates">
                         <a href="cmsForm.php">EDIT</a>
+                        <p><?php echo selectHomepageData(); ?> </p>
                     </div>
 		    </div>
 	</div>	

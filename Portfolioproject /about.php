@@ -1,3 +1,6 @@
+<?php
+require "displayData.php";
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,15 +42,11 @@
 				<img src="images/facepic.jpg">
 			</div>	
 			<div class="aboutMeText">
-				<p>Hello, my name is Josh Turner and I am a UK based Software engineer.
-				<br>I offer affordable bespoke Web Design Services for the sole trader, small and medium sized businesses.
-				   I design and create new websites to allow businesses to take full advantage of online opportunities
-				   from any device (Mobile, Tablet or Desktop).
-			   </p>
+                <p><?php echo selectAboutpageData(); ?> </p>
                 <div class="cmsUpdates">
 			        <a href="cmsForm.php">EDIT</a>
 			   </div>
-			</div>		
+			</div>
 		</div>	
 	</div>
 		<footer>
