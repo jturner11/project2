@@ -4,10 +4,7 @@
          <a href="addPortfolioForm.php">Add Project</a>
     </div>
     <div>
-        <a href="editForm.php">EDIT DATA</a>
-    </div>
-    <div>
-        <a href="deleteForm.php">DELETE DATA</a>
+        <a href="deletePortfolioForm.php">Delete Project</a>
     </div>
 </div>
 
