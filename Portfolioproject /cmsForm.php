@@ -1,5 +1,6 @@
+
 <div class="cmsBackground">
-    <div
+    <div>
          <a href="addForm.php">ADD DATA</a>
     </div>
     <div>
@@ -11,12 +12,4 @@
 </div>
 
 
-
-
-
-
-
-
-<?php
-?>
 
