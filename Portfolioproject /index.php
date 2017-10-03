@@ -37,17 +37,12 @@ require "displayData.php";
 				</div>
 		</div>
   	  	<div class="about">
-			<p><STRONG>HELLO, MY NAME IS JOSH TURNER AND I'M A UK BASED SOFTWARE ENGINEER.
-				<br>
-				<br>
-				I'M ALWAYS LOOKING FOR THE NEXT HOT PROJECT TO WORK ON AND PROVIDE THE BEST
-				<br>
-				RESULTS FOR MY CLIENTS AT THE HIGHEST STANDARDS.
-				<br>
-				<br>
-				 CLICK THE BUTTON BELOW TO BROWSE MY PORTFOLIO !!
+			<p><STRONG>
+                <?php echo selectHomepageData(); ?>
 				</STRONG>
-			</p>	
+			</p>
+            <a href="cmsForm.php">EDIT</a>
+            <br>
 			<button class="readMoreButton"><a href="about.php">READ MORE</a></button>
 				<div class="homeLogos container">
 					<img src="images/HTML5.png">
@@ -56,10 +51,7 @@ require "displayData.php";
 					<img src="images/css3.png">
 					<img src="images/php.png">
 				</div>
-                    <div class="cmsUpdates">
-                        <a href="cmsForm.php">EDIT</a>
-                        <p><?php echo selectHomepageData(); ?> </p>
-                    </div>
+
 		    </div>
 	</div>	
 		<footer>

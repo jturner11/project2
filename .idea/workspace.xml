@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="204b5d3a-872b-4e94-8adf-32eb4515b0af" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /cmsPortfolioForm.php" afterPath="$PROJECT_DIR$/Portfolioproject /cmsPortfolioForm.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /displayData.php" afterPath="$PROJECT_DIR$/Portfolioproject /displayData.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /phpformsfunctions/deleteData.php" afterPath="$PROJECT_DIR$/Portfolioproject /phpformsfunctions/deleteData.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Portfolioproject /index.php" afterPath="$PROJECT_DIR$/Portfolioproject /index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deletePortfolioForm.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deletePortfolioForm.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolioproject /deletePortfolioForm.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
@@ -88,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addForm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Portfolioproject /addForm.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Portfolioproject /index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="256">
+              <caret line="45" column="85" lean-forward="false" selection-start-line="45" selection-start-column="85" selection-end-line="45" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -168,7 +166,6 @@
         <option value="$PROJECT_DIR$/Portfolioproject /cmsForm.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /editForm.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /deleteForm.php" />
-        <option value="$PROJECT_DIR$/Portfolioproject /index.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /phpformsfunctions/phpAddFunction.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /addForm.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /about.php" />
@@ -179,6 +176,7 @@
         <option value="$PROJECT_DIR$/Portfolioproject /displayData.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /phpformsfunctions/deleteData.php" />
         <option value="$PROJECT_DIR$/Portfolioproject /deletePortfolioForm.php" />
+        <option value="$PROJECT_DIR$/Portfolioproject /index.php" />
       </list>
     </option>
   </component>
@@ -274,12 +272,12 @@
       <option name="presentableId" value="Default" />
       <updated>1506939619508</updated>
       <workItem from="1506939620759" duration="4302000" />
-      <workItem from="1506962673347" duration="19451000" />
+      <workItem from="1506962673347" duration="19752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23753000" />
+    <option name="totallyTimeSpent" value="24054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1875" y="-158" width="1797" height="1006" extended-state="0" />
@@ -527,14 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolioproject /index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Portfolioproject /addForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -629,6 +619,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolioproject /index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="45" column="85" lean-forward="false" selection-start-line="45" selection-start-column="85" selection-end-line="45" selection-end-column="85" />
           <folding />
         </state>
       </provider>
