@@ -7,7 +7,6 @@
     <h2>PROJECT NAME:</h2>
    <br><br><br>
 <div class="portfolioAddCss1">
-
         <input type="text" name="text">
     <br><br>
     <h2>IMAGE</h2>
@@ -21,5 +20,4 @@
 </div>
     <input type="submit" value="Submit">
 </form>
-
 </body>

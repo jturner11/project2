@@ -60,6 +60,9 @@
 				<a href="https://www.twitter.com/joshturner11"><img src="images/if_twitter_2308045.png"></a>
 				<a href="https://www.instagram.com/joshturner_jt"><img src="images/if_instagram_2308118.png"></a>
 			</div>
+            <div class="loginButton">
+                <a href="loginPage.php"> Log In </a>
+            </div>
 		</footer>
 		</div>	
 	</div>	

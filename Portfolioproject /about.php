@@ -1,5 +1,6 @@
 <?php
 require "displayData.php";
+require "loginPageFunctions.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -44,7 +45,10 @@ require "displayData.php";
 			<div class="aboutMeText">
                 <p><?php echo selectAboutpageData(); ?> </p>
                 <div class="cmsUpdates">
-			        <a href="editAboutpage.php">EDIT</a>
+                    <?php if (isLoggedIn()) { ?>
+                        <a href = "editAboutpage.php"> EDIT </a>
+                    <?php } ?>
+
 			   </div>
 			</div>
 		</div>	
@@ -55,6 +59,9 @@ require "displayData.php";
 			<a href="https://www.twitter.com/joshturner11"><img src="images/if_twitter_2308045.png"></a>
 			<a href="https://www.instagram.com/joshturner_jt"><img src="images/if_instagram_2308118.png"></a>
 		</div>
+            <div class="loginButton">
+                <a href="loginPage.php"> Log In </a>
+            </div>
 		</footer>	
 	</div>	
 </div>	

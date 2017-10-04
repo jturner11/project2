@@ -1,5 +1,6 @@
 <?php
 require "displayData.php";
+require "loginPageFunctions.php";
 ?>
 <!DOCTYPE html>
 <html>
@@ -41,7 +42,9 @@ require "displayData.php";
                 <?php echo selectHomepageData(); ?>
 				</STRONG>
 			</p>
-            <a href="editHomepage.php">EDIT</a>
+            <?php if (isLoggedIn()) { ?>
+                <a href = "editHomepage.php"> EDIT </a>
+            <?php } ?>
             <br>
 			<button class="readMoreButton"><a href="about.php">READ MORE</a></button>
 				<div class="homeLogos container">

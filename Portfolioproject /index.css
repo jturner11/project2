@@ -269,7 +269,9 @@ footer{
 }
 
 .editAboutPage{
-    background-color: #20AB85;
+    background-image: url("https://images.unsplash.com/photo-1441829266145-6d4bfbd38eb4?dpr=1&auto=compress,format&fit=crop&w=1004&h=&q=80&cs=tinysrgb&crop=");
+	background-repeat :no-repeat;
+	background-size:100%;
 }
 .editAboutPage h1 {
     text-align: center;
