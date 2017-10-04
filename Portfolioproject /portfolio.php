@@ -55,7 +55,7 @@ require "displayData.php";
 			</div>
 		</div>
 <!--   THIS IS WHERE THE CMS IS-->
-                <div class="cmsUpdates">
+                <div class="editPortfolioButton">
                      <a href="cmsPortfolioForm.php">EDIT</a>
                 </div>
 			<footer>	

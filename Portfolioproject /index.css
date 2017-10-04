@@ -252,8 +252,82 @@ footer{
 	
 }
 
-.cmsBackground {
-background-color: #20AB85;
+.editAboutPage{
+    background-color: #20AB85;
+}
+.editAboutPage h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #FFFFFF ;
+}
+.editAboutPage input{
+    margin-top: 20px;
+    margin-right: 50%;
+    margin-left: 50%;
+    margin-bottom: 0;
+}
+.editAboutPage textarea {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* edit function HOMEPAGE CSS*/
+.editHomepage{
+    background-image: url("https://images.unsplash.com/photo-1503455637927-730bce8583c0?dpr=1&auto=compress,format&fit=crop&w=1050&h=&q=80&cs=tinysrgb&crop=");
+    background-repeat :no-repeat;
+    background-size:100%;
+}
+.editHomepage h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #FFFFFF ;
+}
+.editHomepage input{
+    margin-top: 20px;
+    margin-right: 50%;
+    margin-left: 50%;
+}
+.editHomepage textarea {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.editPortfolioButton{
+    text-align: center;
+}
+/*Portfolio add and delete page */
+.cmsPortfolioCss{
+    background-image: url("https://images.unsplash.com/photo-1485256807238-97782da2fa07?dpr=1&auto=compress,format&fit=crop&w=1051&h=&q=80&cs=tinysrgb&crop=");
+    text-align: center;
+}
+.cmsPortfolioCss a {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-left: 50px;
+    border: solid 3px #;
+}
+.cmsPortfolioCss h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 3rem;
+    margin-top: 30px;
+}
+/*portfolio add content form */
+.portfolioAddCss {
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1505578066158-8015e4136f59?dpr=1&auto=compress,format&fit=crop&w=1050&h=&q=80&cs=tinysrgb&crop=");
+    background-repeat :no-repeat;
+    background-size:100%;
+}
+.portfolioAddCss h1{
+    color:#FFFFFF;
+    font-size: 2.2rem;
+}
+.portfolioAddCss h2{
+    color:#FFFFFF;
+    font-size: 1.3rem;
+}
+.portfolioAddCss1 input{
+    width: 500px;
+    height: 40px;
 }
 /*media queries */
 
@@ -314,7 +388,6 @@ background-color: #20AB85;
 	}
 }
 
-}
 @media screen and (max-width:360px){
 	footer{position:fixed;
 		bottom:0;
