@@ -59,7 +59,10 @@ require "displayData.php";
 				<a href="https://www.facebook.com/Josh-Turner-JT-771689736307675/"><img src="images/if_facebook_2308066.png"></a>
 				<a href="https://www.twitter.com/joshturner11"><img src="images/if_twitter_2308045.png"></a>
 				<a href="https://www.instagram.com/joshturner_jt"><img src="images/if_instagram_2308118.png"></a>
-			</div>	
+			</div>
+            <div class="loginButton">
+                <a href="loginPage.php"> Log In </a>
+            </div>
 	 	</footer>
 	</body>
 </html>

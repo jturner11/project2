@@ -245,11 +245,27 @@ footer{
 	padding: 15px 0px;
 }
 .footer a img {
-	width: 10%;
+	width: 75px;
 	border: none;
 	outline: none;
 	display: inline;
-	
+}
+.loginBody{
+	background-image: url("https://images.unsplash.com/photo-1503455637927-730bce8583c0?dpr=1&auto=compress,format&fit=crop&w=1050&h=&q=80&cs=tinysrgb&crop=");
+	background-repeat :no-repeat;
+	background-size:100%;
+	text-align: center;
+	color:#FFFFFF;
+	margin-top: 30px;
+	Font-size:2rem;
+}
+.loginPage{
+
+}
+
+.loginButton {
+	text-align: center;
+	background-color: #27BDF1;
 }
 
 .editAboutPage{
