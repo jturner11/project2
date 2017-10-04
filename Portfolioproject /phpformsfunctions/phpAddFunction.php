@@ -8,4 +8,10 @@ $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
         $query->bindParam(':pagename', $_POST['content_name']);
         $query->bindParam(':text', $_POST['text_content']);
         $query->execute();
+
+    if ($query->execute()){
+        header("location: ../index.php");
+    } else {
+        echo "something went wrong";
+    }
 ?>

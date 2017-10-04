@@ -5,5 +5,5 @@ function deletePortfolioProject(){
 
     $query = $db->prepare("DELETE FROM `Project2` WHERE `id` = :id;");
     $query->bindParam(':id', $_GET['id']);
-    $query->execute();
+    return $query->execute();
 }

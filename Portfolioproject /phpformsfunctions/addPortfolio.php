@@ -13,5 +13,9 @@ $layout = '<div class="overlay-container">
 				</div>';
         $query = $db->prepare("INSERT INTO `Project2` (`content_name`,`text_content`) VALUES ('portfoliopage', :text);");
         $query->bindParam(':text', $layout);
-        $query->execute();
+        if ($query->execute()){
+            header("location: ../portfolio.php");
+        } else {
+            echo "something went wrong";
+        }
 ?>

@@ -3,7 +3,11 @@ require "displayData.php";
 require "phpformsfunctions/deleteData.php";
 
 if (isset($_GET['id'])){
-    deletePortfolioProject();
+    if (deletePortfolioProject()){
+        header("location: ../portfolio.php");
+    } else {
+        echo "something went wrong";
+    }
 }
 
 
@@ -12,4 +16,5 @@ if (isset($_GET['id'])){
             echo $project["text_content"];
             echo '<a href="deletePortfolioForm.php?id=' . $project["id"] . '">Delete </a><br><br>';
         }
+
 ?>
