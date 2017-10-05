@@ -310,13 +310,13 @@ footer{
     color: #FFFFFF ;
 }
 .editHomepage input{
-    margin-top: 20px;
-    margin-right: 50%;
-    margin-left: 50%;
+	display: block;
+	margin: 0 auto;
 }
 .editHomepage textarea {
-    margin-left: 10%;
-    margin-right: 10%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
 }
 .editPortfolioButton{
     text-align: center;
