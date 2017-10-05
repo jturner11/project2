@@ -1,4 +1,8 @@
-<link rel="stylesheet" type="text/css" href="index.css">
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
     <body class="cmsPortfolioCss">
         <h1>YOU ARE ON THE EDIT & DELETE PAGE</h1>
             <br><br><br>
@@ -10,5 +14,6 @@
             <a href="deletePortfolioForm.php">Delete Project</a>
         </div>
 </body>
+</html>
 
 

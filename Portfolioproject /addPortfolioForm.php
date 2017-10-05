@@ -1,4 +1,8 @@
-<link rel="stylesheet" type="text/css" href="index.css">
+<!DOCTYPE html>
+<html>
+    <head>
+         <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
 <form action="phpformsfunctions/addPortfolio.php" method="post">
 <body class="portfolioAddCss">
 <br>
@@ -22,3 +26,4 @@
 </form>
 <br><br><br>
 </body>
+</html>

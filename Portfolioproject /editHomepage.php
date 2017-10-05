@@ -1,6 +1,9 @@
-<link rel="stylesheet" type="text/css" href="index.css">
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="index.css">
 <?php require "displayData.php";
 ?>
+</head>
 <body class="editHomepage">
 <form action="phpformsfunctions/phpAddFunction.php" method="post">
     <input type="hidden" name="content_name" value="homepage">
@@ -11,3 +14,4 @@
     <input type="submit" value="Submit">
 </form>
 </body>
+</html>

@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 <head>
     <?php require "loginPageFunctions.php"; ?>
     <link rel="stylesheet" type="text/css" href="index.css">
@@ -36,3 +38,4 @@
 
     </div>
 </body>
+</html>

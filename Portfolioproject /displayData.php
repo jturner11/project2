@@ -1,4 +1,8 @@
 <?php
+/*
+ *
+ *
+ */
 function selectHomepageData()
 {
     $db = new PDO('mysql:host=127.0.0.1;dbname=project2', 'root');
@@ -9,7 +13,10 @@ function selectHomepageData()
     $results = $query->fetch();
     return  $results['text_content'];
 }
-
+/*
+ * this function selects data from the about page
+ *
+ */
 function selectAboutpageData()
 {
     $db = new PDO('mysql:host=127.0.0.1;dbname=project2', 'root');
@@ -20,6 +27,10 @@ function selectAboutpageData()
     $results = $query->fetch();
     return $results['text_content'];
 }
+/*
+ * This functions selects data from the portfolio page
+ *
+ */
 function selectPortfoliopageData()
 {
     $db = new PDO('mysql:host=127.0.0.1;dbname=project2', 'root');
