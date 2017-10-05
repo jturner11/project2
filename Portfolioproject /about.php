@@ -60,7 +60,13 @@ require "loginPageFunctions.php";
 			<a href="https://www.instagram.com/joshturner_jt"><img src="images/if_instagram_2308118.png"></a>
 		</div>
             <div class="loginButton">
-                <a href="loginPage.php"> Log In </a>
+                <?php
+                if ($_SESSION["logged_in"] == TRUE){
+                    echo "<a href='logoutFunction.php'> Log Out </a>";
+                } else {
+                    echo "<a href='loginPage.php'> Log In </a>";
+                }
+                ?>
             </div>
 		</footer>	
 	</div>	
