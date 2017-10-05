@@ -222,6 +222,7 @@ a img {
 	width: 250px;
 	height: 25px;
 }
+
 .contactButton {
 	margin-bottom: 15px;
 	width: 10px;
@@ -231,7 +232,7 @@ a img {
 .contactButton:hover {
 	color: #10A4D7;
 }
-textarea {
+.textarea {
 	border: 2px solid #10A4D7;
 	width: 80%;
 }
@@ -295,6 +296,8 @@ footer{
 	margin-bottom: 100px;
 }
 .editAboutPage textarea {
+	height: 300px;
+	width: 500px;
 	display: block;
 	margin: 0 auto;
 }
@@ -314,6 +317,8 @@ footer{
 	margin: 0 auto;
 }
 .editHomepage textarea {
+	height: 300px;
+	width: 500px;
 	display: block;
 	margin: 0 auto;
 	margin-bottom: 30px;
@@ -370,10 +375,6 @@ footer{
 }
 
 /*DELETE STUFF FROM PORTFOLIO PAGE*/
-.deletePortfolio {
-	height: 100px;
-	width: 100px;
-}
 
 /*media queries */
 

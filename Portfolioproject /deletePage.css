@@ -1,0 +1,16 @@
+.deletePortfolio {
+    background-image: url("https://images.unsplash.com/photo-1495833066942-79abe24b0c1f?dpr=1&auto=compress,format&fit=crop&w=1039&h=&q=80&cs=tinysrgb&crop=");
+    font-size: 2rem;
+    color: #FFFFFF;
+    background-repeat :no-repeat;
+    background-size:100%;
+}
+.deletePortfolio img {
+    width:300px;
+    height:250px;
+    display: inline;
+}
+.deletePortfolio a {
+    color: #fefdff;
+    font-family:'Oswald', sans-serif;
+}

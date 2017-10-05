@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Gruppo|Hind+Vadodara:300|Oswald:300,400|Patrick+Hand+SC|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="deletePage.css">
+</head>
 <body>
 <div class="deletePortfolio">
 <?php
