@@ -290,14 +290,13 @@ footer{
     color: #FFFFFF ;
 }
 .editAboutPage input{
-    margin-top: 20px;
-    margin-right: 50%;
-    margin-left: 50%;
-    margin-bottom: 0;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 100px;
 }
 .editAboutPage textarea {
-    margin-left: 10%;
-    margin-right: 10%;
+	display: block;
+	margin: 0 auto;
 }
 /* edit function HOMEPAGE CSS*/
 .editHomepage{
@@ -325,7 +324,9 @@ footer{
 /*Portfolio add and delete page */
 .cmsPortfolioCss{
     background-image: url("https://images.unsplash.com/photo-1485256807238-97782da2fa07?dpr=1&auto=compress,format&fit=crop&w=1051&h=&q=80&cs=tinysrgb&crop=");
-    text-align: center;
+	background-repeat :no-repeat;
+	background-size:100%;
+}
 }
 .cmsPortfolioCss a {
     color: #FFFFFF;
@@ -341,7 +342,6 @@ footer{
 }
 /*portfolio add content form */
 .portfolioAddCss {
-    text-align: center;
     background-image: url("https://images.unsplash.com/photo-1505578066158-8015e4136f59?dpr=1&auto=compress,format&fit=crop&w=1050&h=&q=80&cs=tinysrgb&crop=");
     background-repeat :no-repeat;
     background-size:100%;
