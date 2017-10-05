@@ -11,10 +11,8 @@ if (isset($_GET['id'])){
 }
 
 
-      $projects = selectPortfoliopageData();
-        foreach($projects as $project){
-            echo $project["text_content"];
-            echo '<a href="deletePortfolioForm.php?id=' . $project["id"] . '">Delete </a><br><br>';
-        }
-
-?>
+$projects = selectPortfoliopageData();
+    foreach($projects as $project){
+        echo $project["text_content"];
+        echo '<a href="deletePortfolioForm.php?id=' . $project["id"] . '">Delete </a><br><br>';
+    }
