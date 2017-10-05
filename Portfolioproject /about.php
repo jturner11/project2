@@ -43,7 +43,7 @@ require "loginPageFunctions.php";
 				<img src="images/facepic.jpg">
 			</div>	
 			<div class="aboutMeText">
-                <p><?php echo selectAboutpageData(); ?> </p>
+                <p><?php echo nl2br(selectAboutpageData()); ?> </p>
                 <div class="cmsUpdates">
                     <?php if (isLoggedIn()) { ?>
                         <a href = "editAboutpage.php"> EDIT </a>
