@@ -39,7 +39,7 @@ require "loginPageFunctions.php";
 		</div>
   	  	<div class="about">
 			<p><STRONG>
-                <?php echo selectHomepageData(); ?>
+                <?php echo nl2br(selectHomepageData()); ?>
 				</STRONG>
 			</p>
             <?php if (isLoggedIn()) { ?>
