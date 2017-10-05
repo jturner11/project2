@@ -7,7 +7,7 @@
     <br>
     <h1>Edit Content:</h1>
     <br>
-    <textarea name="text_content"> <?php echo selectHomepageData(); ?> </textarea>
+    <textarea name="text_content" rows="30" > <?php echo selectHomepageData(); ?> </textarea>
     <input type="submit" value="Submit">
 </form>
 </body>
