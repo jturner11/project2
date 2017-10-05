@@ -36,6 +36,17 @@ require "loginPageFunctions.php";
 								</div>
 							</div>	
 				</div>
+                <div class="popup" onclick="myFunction()">CLICK ME
+                    <span class="popuptext" id="myPopup">YOU'RE ALMOST THERE, KEEP SCROLLING </span>
+                </div>
+
+                <script>
+                    // When the user clicks on div, open the popup
+                    function myFunction() {
+                        var popup = document.getElementById("myPopup");
+                        popup.classList.toggle("show");
+                    }
+                </script>
 		</div>
   	  	<div class="about">
 			<p><STRONG>
