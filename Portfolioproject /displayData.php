@@ -7,7 +7,7 @@ function selectHomepageData()
     $query = $db->prepare("SELECT `text_content` FROM `Project2` WHERE `content_name` = 'homepage' ORDER BY `id` DESC LIMIT 1;");
     $query->execute();
     $results = $query->fetch();
-    return $results['text_content'];
+    return  $results['text_content'];
 }
 
 function selectAboutpageData()
