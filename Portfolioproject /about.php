@@ -48,7 +48,6 @@ require "loginPageFunctions.php";
                     <?php if (isLoggedIn()) { ?>
                         <a href = "editAboutpage.php"> EDIT </a>
                     <?php } ?>
-
 			   </div>
 			</div>
 		</div>	
