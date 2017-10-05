@@ -1,9 +1,14 @@
+body {
+    background-color: #1C161A;
+}
+
 .deletePortfolio {
     background-image: url("https://images.unsplash.com/photo-1495833066942-79abe24b0c1f?dpr=1&auto=compress,format&fit=crop&w=1039&h=&q=80&cs=tinysrgb&crop=");
     font-size: 2rem;
     color: #FFFFFF;
     background-repeat :no-repeat;
     background-size:100%;
+    text-align: center;
 }
 .deletePortfolio img {
     width:300px;
