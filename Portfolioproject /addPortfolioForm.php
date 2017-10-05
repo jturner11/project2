@@ -21,8 +21,8 @@
    <br>
     <input type="url" name="url">
     <br><br>
+    <input class="portfolioSubmit" type="submit" value="Submit">
 </div>
-    <input type="submit" value="Submit">
 </form>
 <br><br><br>
 </body>

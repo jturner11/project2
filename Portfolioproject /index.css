@@ -351,15 +351,30 @@ footer{
 .portfolioAddCss h1{
     color:#FFFFFF;
     font-size: 2.2rem;
+	text-align: center;
 }
 .portfolioAddCss h2{
     color:#FFFFFF;
     font-size: 1.3rem;
+	text-align: center;
 }
 .portfolioAddCss1 input{
     width: 500px;
     height: 40px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
 }
+.portfolioAddCss1 .portfolioSubmit {
+	width: 50px;
+}
+
+/*DELETE STUFF FROM PORTFOLIO PAGE*/
+.deletePortfolio {
+	height: 100px;
+	width: 100px;
+}
+
 /*media queries */
 
 @media screen and (max-width: 1300px) {

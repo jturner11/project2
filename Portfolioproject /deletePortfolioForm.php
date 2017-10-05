@@ -2,13 +2,14 @@
 <html>
 <head></head>
 <body>
+<div class="deletePortfolio">
 <?php
     require "displayData.php";
     require "phpformsfunctions/deleteData.php";
 
     if (isset($_GET['id'])){
         if (deletePortfolioProject()){
-            header("location: ../portfolio.php");
+            header("location: portfolio.php");
         } else {
             echo "something went wrong";
         }
@@ -19,5 +20,6 @@
             echo '<a href="deletePortfolioForm.php?id=' . $project["id"] . '">Delete </a><br><br>';
     }
     ?>
+</div>
     </body>
 </html>
