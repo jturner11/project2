@@ -20,67 +20,9 @@
 	margin: 0px;
 	background-size: cover;
 	height: 600px;
-	font-size: 4rem;
+	font-size: 2rem;
 	padding: 15px;
-	color: #FB4068;
-	font-family: 'oswald', sans-serif;
-
-}
-.popup {
-	position: relative;
-	display: block;
-	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	right: -450px;
-	top: 200px;
-}
-
-/* The actual popup */
-.popup .popuptext {
-	visibility: hidden;
-	width: 600px;
-	background-color: #FB4068;
-	color: #FFFFFF;
-	text-align: center;
-	border-radius: 6px;
-	padding: 8px 0;
-	position: absolute;
-	z-index: 1;
-	bottom: 125%;
-	left: -25%;
-	margin-left: 80px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-	content: "";
-	position: absolute;
-	top: 100%;
-	left: 50%;
-	margin-left: -5px;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #555 transparent transparent transparent;
-}
-/* Toggle this class - hide and show the popup */
-.popup .show {
-	visibility: visible;
-	-webkit-animation: fadeIn 3s;
-	animation: fadeIn 1s;
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-	from {opacity: 0;}
-	to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-	from {opacity: 0;}
-	to {opacity:1 ;}
+	color: #3DE2F0;
 }
 .aboutHeader {
 	background-color: #86A6A9;
