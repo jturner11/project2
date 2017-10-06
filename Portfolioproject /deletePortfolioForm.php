@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="deletePage.css">
 </head>
 <body>
+<button><a href="index.php">Home</a></button>
 <div class="deletePortfolio">
 <?php
     require "displayData.php";
