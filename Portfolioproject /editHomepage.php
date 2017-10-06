@@ -5,6 +5,7 @@
 ?>
 </head>
 <body class="editHomepage">
+<button><a href="index.php">Home</a></button>
 <form action="phpformsfunctions/phpAddFunction.php" method="post">
     <input type="hidden" name="content_name" value="homepage">
     <br>
