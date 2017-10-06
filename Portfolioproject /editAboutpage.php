@@ -4,6 +4,7 @@
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
     <body class="editAboutPage">
+    <button><a href="index.php">Home</a></button>
             <?php require "displayData.php";?>
         <form action="phpformsfunctions/phpAddFunction.php" method="post">
             <input type="hidden" name="content_name" value="aboutpage">
