@@ -5,6 +5,7 @@
     </head>
 <form action="phpformsfunctions/addPortfolio.php" method="post">
 <body class="portfolioAddCss">
+<button><a href="index.php">Home</a></button>
 <br>
    <h1>Welcome to the add feature.<br>Here you can add new projects easily to your portfolio.</h1>
     <br><br>
