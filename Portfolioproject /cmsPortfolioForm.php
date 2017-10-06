@@ -8,11 +8,11 @@
         <h1>YOU ARE ON THE EDIT & DELETE PAGE</h1>
             <br><br><br>
         <div>
-             <a href="addPortfolioForm.php">Add Project</a>
+             <a href="addPortfolioForm.php" class="portfolioLinkButton">Add Project</a>
         </div>
         <br>
         <div>
-            <a href="deletePortfolioForm.php">Delete Project</a>
+            <a href="deletePortfolioForm.php" class="portfolioLinkButton">Delete Project</a>
         </div>
 </body>
 </html>

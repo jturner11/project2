@@ -5,25 +5,25 @@
     <link rel="stylesheet" href="deletePage.css">
 </head>
 <body>
-<button><a href="index.php">Home</a></button>
-<div class="deletePortfolio">
-<?php
-    require "displayData.php";
-    require "phpformsfunctions/deleteData.php";
+    <button><a href="index.php">Home</a></button>
+    <div class="deletePortfolio">
+    <?php
+        require "displayData.php";
+        require "phpformsfunctions/deleteData.php";
 
-    if (isset($_GET['id'])){
-        if (deletePortfolioProject()){
-            header("location: portfolio.php");
-        } else {
-            echo "something went wrong";
+        if (isset($_GET['id'])){
+            if (deletePortfolioProject()){
+                header("location: portfolio.php");
+            } else {
+                echo "something went wrong";
+            }
         }
-    }
-    $projects = selectPortfoliopageData();
-        foreach($projects as $project){
-            echo $project["text_content"];
-            echo '<a href="deletePortfolioForm.php?id=' . $project["id"] . '">Delete </a><br><br>';
-    }
-    ?>
-</div>
-    </body>
+     $projects = selectPortfoliopageData();
+            foreach($projects as $project){
+                echo $project["text_content"];
+                echo '<a href="deletePortfolioForm.php?id=' . $project["id"] . '">Delete </a><br><br>';
+        }
+        ?>
+    </div>
+</body>
 </html>
